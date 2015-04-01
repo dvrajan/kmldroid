@@ -2,9 +2,10 @@ package local.deva.kmldroid.model.feature.container;
 
 import java.net.URI;
 import java.net.URL;
+import java.util.List;
 
-import javax.xml.validation.Schema;
 
+import local.deva.kmldroid.model.feature.Feature;
 import local.deva.kmldroid.model.styleselector.StyleSelector;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,6 +17,7 @@ import lombok.Setter;
  */
 public class Document extends Container{
 
-    private StyleSelector styleSelector;
-    private Schema schema;
+    private List<StyleSelector> styleSelectorList;
+    private List<Schema> schemaList;
+    private List<Feature> featureList;
 }
