@@ -1,5 +1,6 @@
 package local.deva.kmldroid.model.feature.container;
 
+import java.net.URI;
 import java.net.URL;
 
 import javax.xml.validation.Schema;
@@ -14,8 +15,7 @@ import lombok.Setter;
  * Created by Ram on 4/1/2015.
  */
 public class Document extends Container{
-    private String style_id;
-    private URL style_url;
+
     private StyleSelector styleSelector;
     private Schema schema;
 }
