@@ -30,4 +30,5 @@ public abstract class Feature extends Object {
     private Region region;
     private ExtendedData extendedData;
 
+
 }
